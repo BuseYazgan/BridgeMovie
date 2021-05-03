@@ -1,0 +1,607 @@
+/* imports*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin:0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*navbar*/
+
+.navbar-right, .navbar-left{
+    font-size:15px;
+    line-height: nomral;
+    font-weight: bold;
+    list-style: none;
+    display:flex;
+    
+}
+
+.logo{
+    margin-top:10px;
+    margin-left: 10px;
+}
+
+.navbar-right{
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.navbar-left{
+    justify-content: flex-end;
+    padding-left: 50px;
+}
+
+.navbar-left li, .navbar-right li{
+    margin-right: 50px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.navbar-right a, .navbar-left a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;    
+    position: absolute;
+    padding-top: 25px;
+    z-index: 100;
+}
+
+.grid-container{
+  display: grid;
+  height: 100px;
+  align-content: top;
+  grid-template-columns: auto 150px auto;
+  grid-gap: 10px;
+}
+
+/*first section*/
+.first-sec {
+	 background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+   background-size: cover;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 150px;
+    
+}
+
+.heading-top{
+    margin-left:20px;
+}
+
+.heading img{
+    margin-right:10px;
+}
+
+#img1{
+    padding-top:20px;
+    width:60px;
+    height:30px;
+}
+
+#img2{
+    width:200px;
+    height:60px;
+}
+
+#img3{
+    width:90px;
+    height:50px;
+    padding-bottom:10px;
+}
+
+#img4{
+    padding-top:20px;
+    width:40px;
+    height:30px;
+}
+
+#img5{
+    width:660px;
+    height:150px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.section-1 h3{
+    color:#f8c444;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+.card-container{
+    text-align: left;
+}
+
+.cards{
+  display: grid;
+  height: 200px;
+  width: 200px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+}
+
+.cards h4{
+    color:#fd5166;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    margin:0px;
+}
+
+.card-container{
+    width: 250px;
+    margin-right: 50px;
+}
+
+.cards p{
+    font-size: 15px;
+    line-height: 23px;
+    color: #fff;
+    font-family: 'Ultra', serif;
+    margin:0px;
+}
+
+.card-1, .card-2, .card-3{
+    text-align: left;
+}
+
+
+.card-1 img{
+    width: 69px;
+    height:80px;
+}
+
+.card-2 img{
+    width: 80px;
+    height:80px;
+}
+
+.card-3 img{
+    width: 71px;
+    height:80px;
+}
+
+.deneme{
+    margin-left: 22%;  
+}
+
+/* scroll down to section 2*/
+.scroll-down{
+  margin-left: 49%;
+}
+
+.scroll-down img{
+   margin-left: 10px;
+}
+
+.scroll-down a{
+   text-decoration: none;
+   color:#fff;
+}
+
+
+#scroll-text{
+ max-width: fit-content;
+ max-height: fit-content;
+ transform: rotate(90deg);
+ position: relative;
+ animation-name: example;
+ animation-duration: 2s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes example {
+ 0%   {bottom:0px;}
+ 50%  {bottom:10px;}
+ 100% {bottom:0px;}
+}
+
+
+/*section 2*/
+#section-2 {
+    height: 100vh;
+    background-color:#050727;
+  }
+
+  .section-2 h6{
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: normal;
+    color:#fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:0px;
+    padding-top:50px;
+  }
+
+  .section-2 h2{
+    font-size: 43px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: normal;
+    color:#ffcb4c;
+    font-family: 'Ultra', serif;
+  }
+
+  .section-2 h3{
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: normal;
+    text-align: left;
+    color:#fff;
+    font-family: 'Ultra', serif;
+  }
+
+  .section-2 p{
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.15px;
+    text-align: left;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .section-2 button{
+    font-size:15px;
+    line-height: 39px;
+    text-align: left;
+    letter-spacing: normal;
+    color:#fff;
+    border-color: #fff;
+    background-color: transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 25px;
+    padding:0px 25px;
+  }
+
+  .section-2 button:hover{
+    color:black;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .section-2 img{
+    width: 300px;
+    height: 360px;
+    cursor: pointer;
+  }
+
+  .section-2 .second-cards{
+    display:flex;
+    flex-direction: row;
+  }
+  
+  .second-cards {
+   padding-top:50px;
+   padding-left:6%;
+  }
+
+  .second-card1,.second-card2,.second-card3{
+    display: flex;
+    flex-direction: row;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+    transition-property: all;
+  }
+
+  .second-card2{
+    position: relative;
+    right:20%;
+  }
+
+  .second-card3{
+    position: relative;
+    right:40%;
+  }
+
+  .second-info1, .second-info2,.second-info3{
+    padding: 30px; 
+    width: 276px;
+    height: 360px;
+    visibility: hidden;
+  }
+
+
+
+
+  /*section 3*/
+  .section-3{
+    background-image:url("https://bridge270.qodeinteractive.com/wp-content/uploads/2019/10/h1-background-2.jpg");
+    background-attachment: fixed;
+    text-align: center;
+  }
+
+ .section-3 h2{
+     font-size: 43px;
+     line-height: 43px;
+     letter-spacing: normal;
+     color:#ffcb4c;
+     font-family: 'Ultra', serif;
+     margin: 20px;
+ }
+
+  .section-3 h6{
+      font-size: 15px;
+      line-height: 15px;
+      letter-spacing: normal;
+      font-family: 'Roboto Condensed', sans-serif;
+      color:#fff;
+      margin: 0px;
+      padding-top:100px;
+  }
+
+  .third-cards{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-gap: 25px;
+    margin-left: 8%;
+    padding-bottom:100px;
+  }
+
+  .info{
+    display:none;
+    margin: 90px 0px;
+  }
+
+  .third-cards .movie:hover {
+    box-shadow: 0px 0.2em 2.5em #050727;
+    transform: scale(1.025); 
+    transition: 0.3s;
+
+  }
+
+  .movie:hover .info{
+    transform: scale(1.2);
+    display: block;
+  }
+  
+
+  .one{
+      height:300px;
+      background-image: url("./images/h1-port-1.jpg");
+      background-repeat: no-repeat;
+      background-size:cover;
+  }
+
+  .two{
+      height: 300px;
+      background-image: url("./images/h1-port-2.jpg");
+      background-repeat: no-repeat;
+      background-size:cover;
+  }
+
+  .three{
+    height: 300px;
+    background-image: url("https://bridge270.qodeinteractive.com/wp-content/uploads/2019/10/h1-port-3-570x570.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+  .four{
+    height: 300px;
+    background-image: url("https://bridge270.qodeinteractive.com/wp-content/uploads/2019/10/h1-port-4-570x570.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+  .third-cards h4{
+    font-family: 'Ultra', serif;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: normal;
+    color:#fff;
+    margin: 5px;
+  }
+
+  .third-cards p{
+      color:#fff;
+      font-size: 13px;
+      line-height: 22px;
+      letter-spacing: normal;
+      font-family: 'Open Sans', sans-serif;
+      margin: 10px;
+  }
+
+  .third-cards button{
+      border-radius: 20px;
+      background-color: transparent;
+      color:#fff;
+      border-color:#fff;
+      font-size: 15px;
+      line-height: 39px;
+      letter-spacing: normal;
+      padding: 0px 30px;
+      font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .third-cards button:hover{
+      background-color: #fff;
+      color: black;
+      cursor: pointer;
+  }
+
+  /*footer*/
+
+  .footer{
+    background-color:#050727;
+    color:#fff;
+  }
+
+  .footer-top{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding:30px 0px;
+  }
+
+  .footer-top p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.15px;
+    text-align: start;
+    opacity:40%;
+    width: 310px;
+  }
+
+  .footer-top h5{
+    font-family: 'Ultra', serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: start;
+    letter-spacing: normal;
+    margin-bottom:0px;
+  }
+  .top-list{
+     padding-right:50px;
+     padding-left:0px;
+  }
+
+
+  .top-1{
+      margin-left:6%
+  }
+
+  .top-2{
+      margin-right:10%;
+  }
+
+  .top-3{
+     padding-right: 15%;
+  }
+
+  .top-4{
+      margin-right:10%;
+  }
+
+  .top-2,.top-3,.top-4{
+     margin-bottom:20px;
+  }
+
+  .top-list li{
+    list-style: none;
+    text-align: left;
+  }
+
+  .top-list a{
+    text-decoration: none;
+    color:#fff;
+    opacity: 40%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    line-height: 26px;
+    letter-spacing: -0.13px ;
+  }
+
+  .top-list a:hover{
+    opacity: 100%;
+    transition: 0.5s;
+  }
+  
+
+  .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-bottom p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:11px;
+    line-height: 22px;
+    letter-spacing: -0.11px;
+    opacity: 40%;    
+    padding-left: 100px;
+  }
+
+  .footer-bottom a{
+    text-decoration: none;
+    color:#fff;
+  }
+
+  .footer-list{
+      font-size: 11px;
+      line-height: 22px;
+      font-family: 'Roboto Condensed', sans-serif;
+      text-align: right;
+      letter-spacing: normal;
+      opacity: 40%;
+      display: flex;
+      flex-direction: row;
+      padding-right: 100px;
+  }
+
+  .footer-list li{
+      list-style: none;
+      margin:0px 10px;
+
+  }
+  
+  .footer-list a{
+    text-decoration: none;
+    color:#fff;
+  }
+
+  .footer-list a:hover{
+    color:rgb(241, 234, 234);
+    transition: 0.3s;
+  }
+
+  .fa:hover{
+      opacity: 100%;
+  }
+
+  .fa{
+      background-color: #fff;
+      text-decoration:none;
+      opacity: 70%;
+      margin-right:16px;
+      margin-top:10px;
+  }
+
+ .fa-facebook,.fa-twitter{
+    border-radius: 25%;
+    padding: 2px 3px;
+    color:#050727;
+ }
+
+ .fa-facebook{
+    padding: 2px 5px;
+ }
+
+
+ .fa-google-plus{
+     background-color: transparent;
+     color:lightgray;
+     width: 20px;
+     font-size: 40px;
+ }
+
+ .fa-pinterest{
+    color:lightgray;
+    background-color: transparent;
+ }
+
+
+ hr{
+     opacity: 10%;
+ }
